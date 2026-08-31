@@ -1,0 +1,136 @@
+body {
+    text-align: start;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(#1a2744, #111827);
+    color: white;
+
+    padding: 0 clamp(15px, 5vw, 60px);
+    padding-top: 10px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 80px 30px;
+    text-align: center;
+}
+
+/* Main heading */
+
+h1 {
+    font-size: 67px;
+    margin: 0 0 15px;
+    letter-spacing: -1px;
+}
+
+h2 {
+    font-size: 26px;
+    margin: 0 0 15px;
+    letter-spacing: -1px;
+}
+
+h3 {
+    color: #9ca3af;
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+li {
+    font-size: 16px;
+    margin: 0 0 15px;
+}
+
+p {
+    font-size: 16px;
+    color: #d1d5db;
+    line-height: 2;
+}
+
+
+/* Skills */
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.skill-card {
+    width: 450px;
+    min-height: 180px;
+
+    padding: 30px;
+
+    background: linear-gradient(
+        145deg,
+        #252c35,
+        #1c232c
+    );
+
+    color: white;
+
+    border: 1px solid #3a414b;
+    border-radius: 18px;
+
+    cursor: pointer;
+    text-align: left;
+
+    box-sizing: border-box;
+
+    transition:
+        transform 0.25s ease,
+        border-color 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.skill-card:hover h2 {
+    transform: translateX(5px);
+}
+
+.skill-card h2 {
+    transition: transform 0.25s ease;
+}
+
+.skill-card p {
+    margin-bottom: 0;
+    color: #9ca3af;
+}
+
+
+.button {
+    display: inline-block;
+
+    margin-top: 30px;
+    padding: 13px 26px;
+
+    background: #2563eb;
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 9px;
+
+    transition: 0.2s;
+}
+
+.figmaButton {
+    display: inline-block;
+
+    margin-top: 30px;
+    padding: 13px 26px;
+
+    background: #8400ff;
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 9px;
+
+    transition: 0.2s;
+}

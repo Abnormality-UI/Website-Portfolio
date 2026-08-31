@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(#1a2744, #111827);
+    color: white;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 80px 30px;
+    text-align: center;
+}
+
+/* Main heading */
+
+h1 {
+    font-size: 67px;
+    margin: 0 0 15px;
+    letter-spacing: -1px;
+}
+
+h2 {
+    font-size: 26px;
+    margin: 0 0 15px;
+    letter-spacing: -1px;
+}
+
+h3 {
+    color: #9ca3af;
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 16px;
+    color: #d1d5db;
+    line-height: 1.6;
+}
+
+/* Intro text */
+
+.intro {
+    max-width: 700px;
+    margin: 0 auto 60px;
+    font-size: 18px;
+}
+
+/* Skills */
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.skill-card {
+    width: 450px;
+    min-height: 180px;
+
+    padding: 30px;
+
+    background: radial-gradient(
+        #161e27,
+        #1c232c
+    );
+
+    color: white;
+
+    border: 1px solid #3a414b;
+    border-radius: 18px;
+
+    cursor: pointer;
+    text-align: center;
+
+    box-sizing: border-box;
+
+    transition:
+        transform 0.25s ease,
+        border-color 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+
+    border-color: #2563eb;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.skill-card h2 {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.skill-card p {
+    margin-bottom: 0;
+    color: #9ca3af;
+}
+
+/* Buttons */
+
+.button {
+    display: inline-block;
+    box-sizing: border-box;
+    cursor: pointer;
+
+    margin-top: 30px;
+    padding: 15px 32px;
+
+    background: #2563eb;
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 9px;
+
+    transition: 0.2s;
+}
+
+.button:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+/* Section headings */
+
+.section-title {
+    font-size: 36px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.section-description {
+    max-width: 650px;
+    margin: 0 auto 30px;
+    color: #9ca3af;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+    .container {
+        padding: 50px 20px;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    .skill-card {
+        width: 100%;
+    }
+
+}
