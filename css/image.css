@@ -1,19 +1,16 @@
-.image{
-    width: 300px;
+html, body {
+    overflow-x: hidden;
+}
+
+.container {
+    width: auto;
     height: auto;
+    overflow: hidden;
+}
 
-    border-radius: 12px;
-
-    object-fit: cover;
-
+.container img {
+    width: 100%;
+    height: 100%;
     display: block;
-    margin: 20px auto;
-
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-
-    transition: transform 0.2s ease;
 }
 
-image.hover {
-    transform: scale(1.03);
-}
