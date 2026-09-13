@@ -14,3 +14,15 @@ html, body {
     display: block;
 }
 
+.container-small {
+    width: auto;
+    min-height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container-small img {
+    width: 60%;
+    height: 60%;
+    display: block;
+}
