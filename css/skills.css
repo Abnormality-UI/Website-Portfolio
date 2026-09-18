@@ -1,5 +1,5 @@
 body {
-    text-align: start;
+    text-align: start; /* Start the text horizontally */
     margin: 0;
     font-family: Arial, sans-serif;
     background: radial-gradient(#1a2744, #111827);
