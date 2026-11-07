@@ -1,86 +1,131 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Roblox Development</title>
-    <link rel="stylesheet" href="../css/skills.css">
-    <link rel="stylesheet" href="../css/image.css">
-    <link rel="icon" type="image/x-icon" href="../images/others/Corruptors.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101116">
+  <title>Roblox Development | Abnormality</title>
+  <link rel="icon" href="../images/others/Corruptors.png">
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/skills.css">
+  <script defer src="../js/navigation.js"></script>
+  <script defer src="../oneko.js" data-cat="../oneko.gifs/oneko.gif"></script>
 </head>
 
 <body>
+<div class="app-shell">
+  <aside class="sidebar">
+    <a class="brand" href="../index.html">
+      <img src="../images/others/Corruptors.png" alt="">
+      <span>Abnormality</span>
+    </a>
+    <p class="nav-label">PORTFOLIO</p>
+    <nav class="sidebar-nav" aria-label="Portfolio navigation">
+      <a class="nav-link" href="../index.html"><span class="nav-icon">▦</span> Overview</a>
+      <a class="nav-link" href="../importance.html"><span class="nav-icon">♟</span> About me</a>
+      <a class="nav-link" href="../html/projects.html"><span class="nav-icon">▤</span> Projects</a>
+      <a class="nav-link" href="../hire.html"><span class="nav-icon">✉</span> Inquiries</a>
+    </nav>
 
-    <script src="../oneko.js" data-cat="../oneko.gifs/oneko.gif"></script>
+  </aside>
 
-    <h1>🎮 Roblox Development</h1>
+  <main class="main-content">
+    <header class="topbar">
+      <div><p class="eyebrow">SKILL PORTFOLIO</p><h1>Roblox Development</h1></div>
+      <div class="topbar-actions">
+        <a class="button secondary" href="../index.html">← All skills</a>
+        <a class="button" href="../hire.html">Contact me</a>
+      </div>
+    </header>
 
-    <h2>My Experience</h2>
+    <section class="panel page-intro" id="overview">
+      <p class="eyebrow">GAME DEVELOPMENT · LUAU</p>
+      <h2>Building systems, experiences<br>and game interfaces.</h2>
+      <p>
+        This page documents my Roblox development journey, including what I've learned,
+        the tools I use, projects I've worked on and examples of my work.
+      </p>
+      <div class="skill-summary">
+        <span class="summary-pill">Luau scripting</span>
+        <span class="summary-pill">Roblox Studio</span>
+        <span class="summary-pill">UI &amp; game systems</span>
+      </div>
+    </section>
 
-    <p>
-        Roblox development is one of the areas I've spent a lot of time
-        learning and working with. I have experience using Lua and Luau
-        to create different systems, mechanics and features for Roblox
-        experiences.
-    </p>
+    <section class="content-section" id="experience">
+      <div class="section-heading"><h2>Experience</h2><p>My overall experience and the milestones along the way.</p></div>
+      <div class="info-grid">
+        <article class="info-card">
+          <p class="eyebrow">TIME SPENT</p>
+          <h3>[Add your duration]</h3>
+          <p>For example: “Developing with Roblox Studio since 20XX.” Use a real start year or duration here.</p>
+        </article>
+        <article class="info-card">
+          <p class="eyebrow">CURRENT FOCUS</p>
+          <h3>Systems &amp; scripting</h3>
+          <p>Building reusable modules, gameplay features, interfaces and reliable server-side systems.</p>
+        </article>
+      </div>
+      <div class="timeline" style="margin-top:14px">
+        <article class="timeline-item">
+          <span class="date">[YEAR]</span>
+          <h3>First steps with Roblox development</h3>
+          <p>Describe when you started and the first things you learned or built.</p>
+        </article>
+        <article class="timeline-item">
+          <span class="date">[YEAR]</span>
+          <h3>Learning more advanced Luau</h3>
+          <p>Add a milestone such as modules, remote events, data saving or UI systems.</p>
+        </article>
+        <article class="timeline-item">
+          <span class="date">PRESENT</span>
+          <h3>Current development</h3>
+          <p>Describe what you're currently building and improving.</p>
+        </article>
+      </div>
+    </section>
 
-    <p>
-        I've worked with scripting different parts of games, including
-        gameplay systems, user interfaces and other interactive features.
-        Through working on these projects, I've learned how to structure
-        scripts, debug problems and improve systems when something isn't
-        working correctly.
-    </p>
+    <section class="content-section" id="learning">
+      <div class="section-heading"><h2>What I've learned</h2><p>Knowledge and techniques I've developed through practice.</p></div>
+      <div class="info-grid">
+        <article class="info-card"><h3>Luau programming</h3><p>Variables, functions, tables, events, modules, strict typing and reusable code.</p></article>
+        <article class="info-card"><h3>Client-server communication</h3><p>RemoteEvents, RemoteFunctions, server validation and client-server responsibilities.</p></article>
+        <article class="info-card"><h3>Game systems</h3><p>Organising gameplay logic, configuration modules, player data and progression systems.</p></article>
+        <article class="info-card"><h3>Debugging</h3><p>Reading errors, tracing script behaviour, testing changes and improving reliability.</p></article>
+      </div>
+    </section>
 
-    <h2>Lua / Luau</h2>
+    <section class="content-section" id="technologies">
+      <div class="section-heading"><h2>Technologies &amp; tools</h2><p>Tools and technologies I use in this area.</p></div>
+      <div class="panel"><div class="tag-list">
+        <span class="tag">Roblox Studio</span><span class="tag">Luau</span>
+        <span class="tag">VS Code</span><span class="tag">Git / GitHub</span>
+        <span class="tag">ProfileStore</span><span class="tag">Cmdr</span>
+      </div></div>
+    </section>
 
-    <p>
-        I have experience writing Lua and Luau scripts for Roblox. This
-        includes working with functions, variables, events, modules and
-        different Roblox services. I've also learned how different
-        scripts can communicate with each other to create larger systems.
-    </p>
+    <section class="content-section" id="projects">
+      <div class="section-heading"><h2>Projects</h2><p>Selected projects and systems I've worked on.</p></div>
+      <div class="project-grid">
+        <article class="panel project-card">
+          <div class="project-card-content">
+            <h3>ABMT</h3>
+            <p>ABMT is a Roblox game I developed that focuses on providing friends with the experience to test public modules in a unique environment.</p>
+            <button class="button secondary" onclick="window.open('https://www.roblox.com/games/129216430856155/ABMT', '_blank')">View on Roblox</button>
+          </div>
+        </article>
+        <article class="panel project-card">
+          <div class="project-card-content">
+            <h3>[Another project]</h3>
+            <p>Replace this with another Roblox project or a standalone system you've created.</p>
+            <button class="button secondary" onclick="window.open('https://www.roblox.com/games/PLACEHOLDER_ID', '_blank')">View on Roblox</button>
+          </div>
+        </article>
+      </div>
+    </section>
 
-    <h2>UI Development</h2>
-
-    <p>
-        I've worked with Roblox UI systems to create interfaces that allow
-        players to interact with different parts of a game. This includes
-        creating buttons, menus and other interface elements while making
-        sure they work correctly with the underlying game systems.
-    </p>
-
-    <h2>Debugging</h2>
-
-    <p>
-        Debugging is another important part of my development experience.
-        When something doesn't work correctly, I try to identify where the
-        problem is coming from, understand why it is happening and then
-        develop a solution. This has helped me become better at reading
-        code and finding problems within larger projects.
-    </p>
-
-    <h2>What I've Learned</h2>
-
-    <p>
-        Overall, Roblox development has helped me improve my programming,
-        problem-solving and testing skills. Working on different projects
-        has given me experience with both small scripts and larger systems,
-        while also teaching me how important testing and debugging are
-        during development.
-    </p>
-
-
-    <h2>____________________________________________________________________________________________________________</h2>
-
-    <h2>Here is a link to one of my Roblox games!</h2>
-    <a href="https://www.roblox.com/games/129216430856155/ABMT" class="figmaButton">Go To ABMT!</a>
-
-    <h2>____________________________________________________________________________________________________________</h2>
-
-    <br>
-
-    <a href="../index.html" class="button">Back to Home</a>
-
+    <footer class="site-footer">Created by <strong>Abnormality</strong> · Work Evidence Portfolio</footer>
+  </main>
+</div>
 </body>
-
 </html>

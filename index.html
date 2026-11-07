@@ -1,67 +1,175 @@
-<link rel="stylesheet" href="css/style.css">
 
-<title>Abnormality's Work Evidence Portfolio</title>
-<link rel="icon" type="image/x-icon" href="images/others/Corruptors.png">
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#101116">
 
-<div class="container">
+    <title>Abnormality's Work Evidence Portfolio</title>
 
-    <h1>Welcome To My Work Evidence Portfolio!</h1>
+    <link rel="icon" type="image/x-icon" href="images/others/Corruptors.png">
+    <link rel="stylesheet" href="css/style_v2.css">
 
-    <h3>This website will show my skills in many fields I'm most intersted in!</h3>
-
-    <h4>Created by: Abnormality</h4>
-
-    <a href="importance.html" class="button">To Know About Me!</a>
+    <script defer src="oneko.js" data-cat="oneko.gifs/oneko.gif"></script>
+</head>
 
 <body>
-<div class="skills">
 
-    <script src="oneko.js" data-cat="oneko.gifs/oneko.gif"></script>
+    <div class="app-shell">
 
-    <button class="skill-card" onclick="location.href='html/web_development.html'">
-        <h2>💻 Web Development</h2>
-        <p>HTML, CSS, JavaScript and building responsive websites</p>
-    </button>
+        <!-- Sidebar -->
+        <aside class="sidebar">
 
-    <button class="skill-card" onclick="location.href='html/roblox_development.html'">
-        <h2>🎮 Roblox Development</h2>
-        <p>Lua/Luau scripting, UI systems, game systems and debugging</p>
-    </button>
+            <a href="index.html" class="brand">
+                <img src="images/others/Corruptors.png" alt="Abnormality Logo">
+                <span>Abnormality</span>
+            </a>
 
-    <button class="skill-card" onclick="location.href='html/problem_solving.html'">
-        <h2>🛠️ Problem Solving</h2>
-        <p>Debugging code, finding problems and developing solutions</p>
-    </button>
+            <p class="nav-label">PORTFOLIO</p>
 
-    <button class="skill-card" onclick="location.href='html/it_support.html'">
-        <h2>🔨 IT Support</h2>
-        <p>Helpful problem solving towards real-life technologies</p>
-    </button>
+            <nav class="navigation">
+                <a href="index.html" class="nav-item active">
+                    <span>▦</span> Overview
+                </a>
 
-    <button class="skill-card" onclick="location.href='html/testing.html'">
-        <h2>🧪 Testing Experience</h2>
-        <p>Years of experiencing testing on big games with billions of visits</p>
-    </button>
+                <a href="importance.html" class="nav-item">
+                    <span>♟</span> About Me
+                </a>
 
-    <button class="skill-card" onclick="location.href='html/3d_modeling.html'">
-        <h2>🖌️ 3D Modeling</h2>
-        <p>Creating 3D models for games and other projects</p>
-    </button>
+                <a href="html/projects.html" class="nav-item">
+                    <span>▤</span> Projects
+                </a>
 
-    <button class="skill-card" onclick="location.href='html/animation.html'">
-        <h2>🎨 Animation</h2>
-        <p>Creating animations for practice / enjoyment</p>
-    </button>
+                <a href="hire.html" class="nav-item">
+                    <span>✉</span> Inquiries
+                </a>
+            </nav>
 
-    <button class="skill-card" onclick="location.href='html/projects.html'">
-        <h2>📦 Projects</h2>
-        <p>View some alternative projects I have created</p>
-    </button>
+
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <header class="topbar">
+                <div>
+                    <p class="eyebrow">PERSONAL PORTFOLIO</p>
+                    <h1>Overview</h1>
+                </div>
+
+                <a href="hire.html" class="primary-button">
+                    Contact Me ↗
+                </a>
+            </header>
+
+            <!-- Welcome -->
+            <section class="welcome-card">
+
+                <div class="welcome-content">
+                    <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+                    <h2>Welcome to my<br><span>Work Evidence Portfolio!</span></h2>
+
+                    <p>
+                        I'm Abnormality! This website showcases my skills,
+                        experiences, projects and development journey
+                        across multiple fields.
+                    </p>
+
+                    <a href="importance.html" class="secondary-button">
+                        Get to know me →
+                    </a>
+                </div>
+
+                <div class="welcome-decoration">
+                    <img src="images/others/Corruptors.png" alt="Abnormality Logo">
+                </div>
+
+            </section>
+
+            <!-- Skills -->
+            <section class="content-section">
+
+                <div class="section-heading">
+                    <div>
+                        <h2>My Skills</h2>
+                        <p>Explore the different fields I've worked with.</p>
+                    </div>
+
+                    <span class="section-count">08 CATEGORIES</span>
+                </div>
+
+                <div class="skills-grid">
+
+                    <a href="html/web_development.html" class="skill-card">
+                        <span class="skill-icon">💻</span>
+                        <h3>Web Development</h3>
+                        <p>HTML, CSS, JavaScript and building responsive websites.</p>
+                        <span class="card-link">Explore skills →</span>
+                    </a>
+
+                    <a href="html/roblox_development.html" class="skill-card">
+                        <span class="skill-icon">🎮</span>
+                        <h3>Roblox Development</h3>
+                        <p>Lua/Luau scripting, UI systems, game systems and debugging.</p>
+                        <span class="card-link">Explore skills →</span>
+                    </a>
+
+                    <a href="html/problem_solving.html" class="skill-card">
+                        <span class="skill-icon">🛠️</span>
+                        <h3>Problem Solving</h3>
+                        <p>Debugging code, finding problems and developing solutions.</p>
+                        <span class="card-link">Explore skills →</span>
+                    </a>
+
+                    <a href="html/it_support.html" class="skill-card">
+                        <span class="skill-icon">🔨</span>
+                        <h3>IT Support</h3>
+                        <p>Helping solve problems involving real-world technologies.</p>
+                        <span class="card-link">Explore skills →</span>
+                    </a>
+
+                    <a href="html/testing.html" class="skill-card">
+                        <span class="skill-icon">🧪</span>
+                        <h3>Testing Experience</h3>
+                        <p>Experience testing large games and identifying issues.</p>
+                        <span class="card-link">Explore skills →</span>
+                    </a>
+
+                    <a href="html/3d_modeling.html" class="skill-card">
+                        <span class="skill-icon">🖌️</span>
+                        <h3>3D Modeling</h3>
+                        <p>Creating 3D models for games and other projects.</p>
+                        <span class="card-link">Explore skills →</span>
+                    </a>
+
+                    <a href="html/animation.html" class="skill-card">
+                        <span class="skill-icon">🎨</span>
+                        <h3>Animation</h3>
+                        <p>Creating animations for practice and enjoyment.</p>
+                        <span class="card-link">Explore skills →</span>
+                    </a>
+
+                    <a href="html/projects.html" class="skill-card">
+                        <span class="skill-icon">📦</span>
+                        <h3>Projects</h3>
+                        <p>Take a look at some of the projects I've created.</p>
+                        <span class="card-link">View projects →</span>
+                    </a>
+
+                </div>
+
+            </section>
+
+            <footer>
+                <p>Created by <strong>Abnormality</strong> · Personal Work Portfolio</p>
+            </footer>
+
+        </main>
+
+    </div>
+
 </body>
-
-</div>
-    
-    <a href="hire.html" class="button">Inquiries!</a>
-
-</div>
+</html>
